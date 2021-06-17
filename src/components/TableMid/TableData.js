@@ -7,7 +7,7 @@ const TableData = () => {
     <div className="main">
       <div id="table-container">
         <table id="table">
-          <tr class="table-data-row table-head">
+          <tr className="table-data-row table-head">
             <td>
               <span>#</span>
             </td>
@@ -29,9 +29,7 @@ const TableData = () => {
           </tr>
 
           {tableData.map((data) => {
-            return (
-              <Table tableData={data} />
-            );
+            return <Table tableData={data} key={data.id}/>;
           })}
         </table>
       </div>

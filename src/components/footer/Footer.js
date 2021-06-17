@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="f-left">
-        <a href="#">support</a>
+        <a href="/">support</a>
       </div>
     </div>
   );

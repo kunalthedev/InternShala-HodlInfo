@@ -1,10 +1,10 @@
 import React, { useState} from "react";
-import Counter from "../midbar/Counter";
+import Counter from "../MidCounter/Counter";
 import Nav from "../Nav/Nav";
 import "./app.css";
 import banner from "../../img/banner.png";
 import Footer from "../footer/Footer";
-import TableData from "../main/TableData";
+import TableData from "../TableMid/TableData";
 import { GlobalContext } from "../../Context/GlobalContext";
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);

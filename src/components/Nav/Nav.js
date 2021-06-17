@@ -18,7 +18,7 @@ const Nav = () => {
             Powered By <a href="/">Finstreet</a>
           </p>
         </div>
-        <div className={`${darkMode ? "btns": "btns-white"}`}>
+        <div className={`${darkMode ? "btns" : "btns-white"}`}>
           <button>INR ▼</button>
           <button>BTC ▼</button>
           <button>BUY BTC</button>
@@ -36,14 +36,14 @@ const Nav = () => {
             </div>
           </a>
           <div className="switch">
-            <label class="switch">
+            <label className="switch">
               <input
                 type="checkbox"
                 onChange={() => {
                   setDarkMode(!darkMode);
                 }}
               />
-              <span class="slider round"></span>
+              <span className="slider round"></span>
             </label>
           </div>
         </div>

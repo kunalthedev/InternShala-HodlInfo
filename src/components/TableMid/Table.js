@@ -14,37 +14,43 @@ const Table = ({tableData}) => {
     } = tableData;
     return (
       <tr
-        class={`${
-          darkMode ? "table-data-row data-cont" : "table-data-row data-cont-light"
+        className={`${
+          darkMode
+            ? "table-data-row data-cont"
+            : "table-data-row data-cont-light"
         }`}
         key={id}
       >
-        <td class="left-childs">
-          <span class="data">{id}</span>
+        <td className="left-childs">
+          <span className="data">{id}</span>
         </td>
         <td>
           <span className="icon">
             <img src={platformIcon} alt={platform} />
           </span>
-          <span class="data">{platform}</span>
+          <span className="data">{platform}</span>
         </td>
         <td>
-          <span class="data">₹ {lastTradedPrice}</span>
+          <span className="data">₹ {lastTradedPrice}</span>
         </td>
         <td>
-          <span class="data">
+          <span className="data">
             ₹ {buyPrice} / ₹ {sellPrice}
           </span>
         </td>
         <td>
           <span
-            class={`${diffrence > 0 ? "data percent" : "data percent-down"}`}
+            className={`${
+              diffrence > 0 ? "data percent" : "data percent-down"
+            }`}
           >
             {diffrence} %
           </span>
         </td>
-        <td class="right-childs">
-          <span class={`${diffrence > 0 ? "data price" : "data price-down"}`}>
+        <td className="right-childs">
+          <span
+            className={`${diffrence > 0 ? "data price" : "data price-down"}`}
+          >
             {diffrence > 0 ? "▲" : "▼"}₹ {saving}
           </span>
         </td>
