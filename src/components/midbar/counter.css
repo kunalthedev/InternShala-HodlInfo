@@ -1,0 +1,86 @@
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+.counter-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-div-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.percentage {
+  color: #5dc7c2;
+  font-size: calc(1vw + 1.5em);
+}
+.time {
+  color: gray;
+  font-size: calc(1vw + 0.5em);
+}
+
+.avg-head {
+  color: gray;
+  font-size: calc(1vw + 1.2em);
+}
+.avg-price {
+  font-size: calc(1vw + 3.8em);
+}
+.avg-subtitle {
+  color: gray;
+  font-size: calc(1vw + 0.2em);
+}
+
+.img-counter {
+  display: flex;
+  justify-content: center;
+}
+.cryptoImg {
+  width: 95%;
+}
+
+@media screen and (max-width: 769px) {
+  .counter {
+    padding: 1rem;
+  }
+  .percentage {
+    color: #5dc7c2;
+    font-size: 0.8rem;
+  }
+  .time {
+    color: gray;
+    font-size: 0.8rem;
+  }
+
+  .avg-head {
+    color: gray;
+    font-size: 0.8rem;
+  }
+  .avg-price {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+  .avg-subtitle {
+    color: gray;
+    font-size: 0.5rem;
+  }
+  .counter-div-main {
+    padding-bottom: 15px;
+  }
+}

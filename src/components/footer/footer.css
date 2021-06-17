@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: gray;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.f-right {
+  display: flex;
+}
+.f-right div {
+  padding-left: 0.5rem;
+}
+
+.f-right a {
+  text-decoration: none;
+  color: #5dc7c2;
+}
+
+.f-left a {
+  text-decoration: none;
+  color: gray;
+}

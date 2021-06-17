@@ -1,0 +1,91 @@
+#table-container {
+  /* min-width: 100vw; */
+  overflow-x: auto;
+}
+
+#table {
+  width: 100vw;
+  overflow-x: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 426px) {
+  #table-container{
+    overflow-x: auto;
+    width: 100%;
+  }
+  #table{
+    width: 100%;
+  }
+}
+
+#table,
+.table-data-row {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  border: 25px solid #191d2800;
+}
+
+#table tr td {
+  height: 50px;
+}
+
+.table-data-row {
+  font-weight: bold;
+
+  font-size: 1.5rem;
+}
+
+.table-head {
+  color: #6d6f76;
+}
+
+.data-cont {
+  background-color: #2E3241;
+}
+.data-cont-light {
+  background-color: #F8F9FA;
+}
+.data {
+  padding: 1rem;
+}
+
+.left-childs {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-childs {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.price {
+  color: #5dc7c2;
+}
+.percent {
+  color: #5dc7c2;
+}
+
+#table a {
+  text-decoration: none;
+}
+
+.percent-down {
+  color: #da5757;
+}
+
+.price-down {
+  color: #da5757;
+}
+
+@media screen and (max-width: 769px) {
+  .table-data-row {
+    font-weight: bold;
+
+    font-size: 0.8rem;
+  }
+}
+.icon img{
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  border-radius: 50%;
+}

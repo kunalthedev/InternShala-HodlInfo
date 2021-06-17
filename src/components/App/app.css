@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+}
+.app {
+  background: #191d28;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.app-light {
+  color: black;
+  background: white;
+}
+.line {
+  width: 100vw;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.507);
+}
+.banner {
+  padding: 1rem;
+  /* margin-left: 1.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  width: 98%;
+}
+
+a {
+  color: white;
+}
+.a-light {
+  color: black;
+}
